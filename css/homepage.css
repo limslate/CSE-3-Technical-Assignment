@@ -1,0 +1,58 @@
+/* this css file will only style the homepage of our site */
+
+.cat-photo {
+  margin: 10px;
+  max-width: 500px;
+  margin: 10px;
+  padding: 10px;
+  border: solid 5px #0198a5;
+  background-color: #60e5c6;
+}
+.portraitpic {
+  margin: 10px;
+  max-width: 120px;
+  margin: 10px;
+  padding: 10px;
+  border: solid 5px #ff9900;
+  background-color: #edc077;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+.other-photo {
+  margin: 10px;
+  max-width: 500px;
+  margin: 10px;
+  padding: 10px;
+  border: solid 5px #1cd253;
+  background-color: #79de9b;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.image-section img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+body {
+  background-color: #f5ed21;
+}
+
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 5px #ff0062;
+  background-color: #ff7cb3;
+}
+
+
